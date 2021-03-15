@@ -2,6 +2,8 @@
 
 This is part of the Forms Project in The Odin Project’s Ruby on Rails Curriculum. You can find the project requirements [here](http://www.theodinproject.com).
 In this project we are using the form_for helper methods provided by Rails to do [new, create, edit, update, and show operations].
+
+
 ![Screenshot-of-demo](./app/assets/images/screenshot.JPG)
 
 ## Instructions
