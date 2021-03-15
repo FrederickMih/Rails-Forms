@@ -1,3 +1,4 @@
+#rubocop:disable Lint/Syntax
 require "application_system_test_case"
 
 class UsersTest < ApplicationSystemTestCase
@@ -49,3 +50,4 @@ class UsersTest < ApplicationSystemTestCase
     assert_text "User was successfully destroyed"
   end
 end
+#rubocop:enable Lint/Syntax

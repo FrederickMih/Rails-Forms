@@ -1,3 +1,4 @@
+#rubocop:disable Lint/Syntax
 require "test_helper"
 
 class UsersControllerTest < ActionDispatch::IntegrationTest
@@ -46,3 +47,4 @@ class UsersControllerTest < ActionDispatch::IntegrationTest
     assert_redirected_to users_url
   end
 end
+#rubocop:enable Lint/Syntax
