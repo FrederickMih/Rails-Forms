@@ -1,27 +1,35 @@
-# README
+# Rails-Forms
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This is part of the Forms Project in The Odin Project’s Ruby on Rails Curriculum. You can find the project requirements [here](http://www.theodinproject.com).
+In this project we are using the form_for helper methods provided by Rails to do [new, create, edit, update, and show operations].
+![Screenshot-of-demo](./app/assets/images/screenshot.JPG)
 
-Things you may want to cover:
+## Instructions
 
-* Ruby version
+1. Download a clone locally git clone https://github.com/FrederickMih/Rails-Forms/tree/development
+2. Enter the project folder cd micro-reddit
+3. Download the proper branch git checkout Rails-form
+4. Install the necessary gems bundle install
+5. Migrate the database rails db:migrate
+6. Start the Rails server by using "rails server" command
+6. You can now create new users by going to http://127.0.0.1:3000/users/new
+8. View existing users by going to http://127.0.0.1:3000/users/[userId]
+9. Update existing users by going to http://127.0.0.1:3000/users/[userId]/edit
 
-* System dependencies
+## Authors :bust_in_silhouette:
 
-* Configuration
+### Frederick Mih
 
-* Database creation
+\_[Github](https://github.com/FrederickMih)
+\_[LinkedIn](https://www.linkedin.com/in/frederick-mih/)
 
-* Database initialization
+### Ayman Jabr
 
-* How to run the test suite
+\_[Github](https://github.com/AymanJabr/)
+\_[LinkedIn](https://www.linkedin.com/in/ayman-jabr-3705a4100/)
 
-* Services (job queues, cache servers, search engines, etc.)
+## Show your support :star:️:star:️:star:️
+Give a star if you like this project!
 
-* Deployment instructions
-
-* ...
-<<<<<<>>>>>>
-
-“This is part of the Forms Project in The Odin Project’s Ruby on Rails Curriculum. Find it at http://www.theodinproject.com”
+## License :memo:
+This project is [MIT](https://www.mit.edu/~amini/LICENSE.md) licensed.
