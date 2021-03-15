@@ -1,4 +1,4 @@
-#rubocop:disable Lint/Syntax
+# rubocop:disable Lint/Syntax
 require "test_helper"
 
 class UsersControllerTest < ActionDispatch::IntegrationTest
@@ -18,7 +18,7 @@ class UsersControllerTest < ActionDispatch::IntegrationTest
 
   test "should create user" do
     assert_difference('User.count') do
-      post users_url, params: { user: { email: @user.email, password: @user.password, string: @user.string, string,: @user.string,, username: @user.username } }
+      post users_url, params: { user: { email: @user.email, password: @user.password, string: @user.string, string,: @user.string, username: @user.username } }
     end
 
     assert_redirected_to user_url(User.last)
@@ -35,7 +35,7 @@ class UsersControllerTest < ActionDispatch::IntegrationTest
   end
 
   test "should update user" do
-    patch user_url(@user), params: { user: { email: @user.email, password: @user.password, string: @user.string, string,: @user.string,, username: @user.username } }
+    patch user_url(@user), params: { user: { email: @user.email, password: @user.password, string: @user.string, string,: @user.string, username: @user.username } }
     assert_redirected_to user_url(@user)
   end
 
@@ -47,4 +47,4 @@ class UsersControllerTest < ActionDispatch::IntegrationTest
     assert_redirected_to users_url
   end
 end
-#rubocop:enable Lint/Syntax
+# rubocop:enable Lint/Syntax
