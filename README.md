@@ -9,8 +9,7 @@ In this project we are using the form_for helper methods provided by Rails to do
 ## Instructions
 
 1. Download a clone locally git clone https://github.com/FrederickMih/Rails-Forms/tree/development
-2. Enter the project folder cd micro-reddit
-3. Download the proper branch git checkout Rails-form
+2. Enter the project folder cd Rails-Forms
 4. Install the necessary gems bundle install
 5. Migrate the database rails db:migrate
 6. Start the Rails server by using "rails server" command
